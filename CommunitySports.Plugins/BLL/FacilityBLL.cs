@@ -1,4 +1,4 @@
-using CommunitySports.Plugins.Constants;
+﻿using CommunitySports.Plugins.Constants;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Query;
 using System;
