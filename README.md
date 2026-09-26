@@ -5,6 +5,8 @@ I implemented the nine core requirements in a single unmanaged Dataverse solutio
 
 Optional extras were not included; I prioritised completing and validating the core requirements.
 
+> Source-code note: the strong-name signing key is intentionally not committed to this public repository. Generate a local `key.snk` and enable assembly signing before registering the plug-in assembly in Dataverse.
+
 ## Implementation Approach
 1. Solution Packaging — Configuration: All transportable components are contained in one unmanaged solution with a dedicated publisher/custom prefix and exported as both managed and unmanaged packages.
 2. Data Model — Dataverse configuration: Facility and Booking are custom tables. Contact is reused for Members. Facility Type is a reusable global Choice. Facility Code is an Alternate Key so external systems can address a Facility without its Dataverse GUID.
