@@ -1,4 +1,4 @@
-namespace CommunitySports.Plugins.Constants
+﻿namespace CommunitySports.Plugins.Constants
 {
     public static class SchemaNames
     {
@@ -20,6 +20,7 @@ namespace CommunitySports.Plugins.Constants
         {
             public const string HourlyRate = "as_hourlyrate";
             public const string Capacity = "as_capacity";
+
             public const string State = "statecode";
             public const string StatusReason = "statuscode";
         }

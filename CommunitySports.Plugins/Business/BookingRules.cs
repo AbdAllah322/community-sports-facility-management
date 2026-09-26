@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using CommunitySports.Plugins.Constants;
 
 namespace CommunitySports.Plugins.Business

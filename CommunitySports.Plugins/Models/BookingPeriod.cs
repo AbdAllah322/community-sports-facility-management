@@ -2,14 +2,16 @@
 
 namespace CommunitySports.Plugins.Models
 {
-    public class BookingPriceData
+    public class BookingPeriod
     {
-        public Guid FacilityId { get; set; }
+        public Guid BookingId { get; set; }
 
-        public Guid MemberId { get; set; }
+        public Guid FacilityId { get; set; }
 
         public DateTime StartTime { get; set; }
 
         public DateTime EndTime { get; set; }
+
+        public int? StatusReason { get; set; }
     }
 }
